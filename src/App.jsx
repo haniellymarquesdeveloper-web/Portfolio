@@ -1,8 +1,8 @@
 import "./App.css";
 
 export default function App() {
-  const scrollToProjects = () => {
-    const section = document.getElementById("projects");
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
     section?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -25,9 +25,19 @@ export default function App() {
             </p>
 
             <div className="hero-buttons">
-              <button onClick={scrollToProjects}>Ver projetos</button>
-              <a href="mailto:haniellymarques66@gmail.com" className="secondary-btn">
+              <button onClick={() => scrollToSection("projects")}>
+                Ver projetos
+              </button>
+
+              <button onClick={() => scrollToSection("contact")}>
                 Entrar em contato
+              </button>
+
+              <a
+                href="mailto:haniellymarques66@gmail.com"
+                className="secondary-btn"
+              >
+                Enviar e-mail
               </a>
             </div>
           </div>
@@ -101,7 +111,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="contact fade-up delay-5">
+        <section className="contact fade-up delay-5" id="contact">
           <h2>Contato</h2>
           <div className="contact-box">
             <p>
