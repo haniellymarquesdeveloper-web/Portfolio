@@ -77,6 +77,15 @@ export default function App() {
                 dados e IA.
               </p>
               <span>React • Node • PostgreSQL • IA</span>
+              <div className="project-link">
+                <a
+                  href="https://indexia.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Abrir projeto
+                </a>
+              </div>
             </div>
 
             <div className="project-card">
@@ -86,15 +95,32 @@ export default function App() {
                 foco em organização visual e boa usabilidade.
               </p>
               <span>React • JavaScript • CSS</span>
+              <div className="project-link">
+                <a
+                  href="https://haniellymarquesdeveloper-web.github.io/sorteador-web/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Abrir projeto
+                </a>
+              </div>
             </div>
 
             <div className="project-card">
-              <h3>Controle de Uso de Computadores</h3>
+              <h3>Gerador de senhas</h3>
               <p>
-                Sistema para monitorar uso de computadores com registro de
-                alunos e visualização de dados em tempo real.
+                Aplicação para gerar senhas seguras com opções de personalização.
               </p>
-              <span>React • Node • Dashboard</span>
+              <span>React • JavaScript • CSS</span>
+              <div className="project-link">
+                <a
+                  href="https://haniellymarquesdeveloper-web.github.io/gerador-senhas"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Abrir projeto 
+                </a>
+              </div>
             </div>
           </div>
         </section>
