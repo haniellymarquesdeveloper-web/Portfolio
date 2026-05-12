@@ -89,6 +89,23 @@ export default function App() {
             </div>
 
             <div className="project-card">
+              <h3>Aprecie</h3>
+              <p>
+                Aplicação simples feita com cenário 3D para oferecer imersão, estilo Roblox.
+              </p>
+              <span>React • JavaScript • CSS • Three.js</span>
+              <div className="project-link">
+                <a
+                  href="https://haniellymarquesdeveloper-web.github.io/Aprecie/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Abrir projeto
+                </a>
+              </div>
+            </div>
+
+            <div className="project-card">
               <h3>Sorteador Aleatório</h3>
               <p>
                 Aplicação simples para sorteio de nomes com interface intuitiva,
@@ -134,6 +151,7 @@ export default function App() {
             <span>Express</span>
             <span>PostgreSQL</span>
             <span>Git</span>
+            <span>Three.js</span>
           </div>
         </section>
 
