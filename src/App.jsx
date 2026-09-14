@@ -16,9 +16,11 @@ export default function App() {
         <section className="hero">
           <div className="hero-text fade-up">
             <span className="tag">Portfólio • Frontend Developer</span>
+
             <h1>
               Hanielly <span>Marques</span>
             </h1>
+
             <p>
               Desenvolvedora Frontend focada em criar interfaces bonitas,
               funcionais e soluções reais com React e Node.js.
@@ -45,7 +47,9 @@ export default function App() {
           <div className="hero-card fade-up delay-1">
             <div className="mini-card">
               <p className="mini-title">Projeto em destaque</p>
+
               <h3>IndexIA</h3>
+
               <p>
                 Chatbot para biblioteca acadêmica com frontend, backend, banco
                 de dados e integração com IA.
@@ -56,6 +60,7 @@ export default function App() {
 
         <section className="about fade-up delay-2">
           <h2>Sobre mim</h2>
+
           <p>
             Sou desenvolvedora focada em frontend, com experiência na construção
             de sistemas completos. Atualmente desenvolvo soluções reais, como o
@@ -70,13 +75,17 @@ export default function App() {
           <div className="projects-grid">
             <div className="project-card featured">
               <div className="project-badge">Destaque</div>
+
               <h3>IndexIA – Chatbot para Biblioteca</h3>
+
               <p>
                 Sistema de atendimento automatizado para biblioteca
                 universitária, com integração entre frontend, backend, banco de
                 dados e IA.
               </p>
+
               <span>React • Node • PostgreSQL • IA</span>
+
               <div className="project-link">
                 <a
                   href="https://indexia.onrender.com/"
@@ -89,11 +98,37 @@ export default function App() {
             </div>
 
             <div className="project-card">
-              <h3>Aprecie</h3>
+              <h3>Crochê Bolsas</h3>
+
               <p>
-                Aplicação simples feita com cenário 3D para oferecer imersão, estilo Roblox.
+                Site desenvolvido para apresentar bolsas e artigos artesanais de
+                crochê, com uma interface visual, responsiva e de fácil
+                navegação.
               </p>
+
+              <span>React • JavaScript • CSS</span>
+
+              <div className="project-link">
+                <a
+                  href="https://croche-bolsas.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Abrir projeto
+                </a>
+              </div>
+            </div>
+
+            <div className="project-card">
+              <h3>Aprecie</h3>
+
+              <p>
+                Aplicação simples feita com cenário 3D para oferecer imersão,
+                estilo Roblox.
+              </p>
+
               <span>React • JavaScript • CSS • Three.js</span>
+
               <div className="project-link">
                 <a
                   href="https://haniellymarquesdeveloper-web.github.io/Aprecie/"
@@ -107,11 +142,14 @@ export default function App() {
 
             <div className="project-card">
               <h3>Sorteador Aleatório</h3>
+
               <p>
                 Aplicação simples para sorteio de nomes com interface intuitiva,
                 foco em organização visual e boa usabilidade.
               </p>
+
               <span>React • JavaScript • CSS</span>
+
               <div className="project-link">
                 <a
                   href="https://haniellymarquesdeveloper-web.github.io/sorteador-web/"
@@ -125,17 +163,20 @@ export default function App() {
 
             <div className="project-card">
               <h3>Gerador de senhas</h3>
+
               <p>
                 Aplicação para gerar senhas seguras com opções de personalização.
               </p>
+
               <span>React • JavaScript • CSS</span>
+
               <div className="project-link">
                 <a
                   href="https://haniellymarquesdeveloper-web.github.io/gerador-senhas"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Abrir projeto 
+                  Abrir projeto
                 </a>
               </div>
             </div>
@@ -144,6 +185,7 @@ export default function App() {
 
         <section className="skills fade-up delay-4">
           <h2>Tecnologias</h2>
+
           <div className="skills-list">
             <span>React</span>
             <span>JavaScript</span>
@@ -157,10 +199,12 @@ export default function App() {
 
         <section className="contact fade-up delay-5" id="contact">
           <h2>Contato</h2>
+
           <div className="contact-box">
             <p>
               <strong>Email:</strong> haniellymarques66@gmail.com
             </p>
+
             <p>
               <strong>LinkedIn:</strong>{" "}
               <a
