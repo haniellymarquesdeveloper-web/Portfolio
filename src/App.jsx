@@ -98,7 +98,7 @@ export default function App() {
             </div>
 
             <div className="project-card">
-              <h3>Crochê Bolsas</h3>
+              <h3>Crochê e Bolsas</h3>
 
               <p>
                 Site desenvolvido para apresentar bolsas e artigos artesanais de
